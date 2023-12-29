@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://app.myshiping.ng</title>
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- THIS IS THE BEGINNER OF THE CODE -->
+    <section class="container-fluid" style="position: sticky; top: 0; z-index: 2 ">
+        <nav class="navbar navbar-expand-lg bg-success p-1 rounded">
+            <div class="container-fluid">
+                <!-- this is the horizontal navigation bar and it was design using boostrap design -->
+                <a href="#" class="navbar-brand text-white bold ">HOLY-DHIPPING</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- this is a navigation bar -->
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center"
+                    id="navbarNavAltMarkup">
+
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                            </li>
+                            <a class="nav-link text-white fs-5 about" href="#about">About</a>
+                            <li class="nav-item"></li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5" href="#">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white fs-5" data-bs-toggle="dropdown"
+                                    aria-expanded="false" href="#">
+                                    Reviewed
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Category</a></li>
+                                    <li><a class="dropdown-item" href="#">Users</a></li>
+                                    <li><a class="dropdown-item" href="#">Track</a></li>
+                                    <li><a class="dropdown-item" href="#">Access</a></li>
+                                    <li><a class="dropdown-item" href="#">billing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link text-white fs-5" href="#">Contact</a></li>
+
+                            <!-- this is my sign in dropdown menue -->
+                            <li class="nav-item dropdown" style="position: relative; padding-right:100px">
+                                <a href="#register"
+                                    class="nav-link bg-lg-primary text-white fs-5  text-sm-start dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                        class="bi bi-person-circle text-dark"
+                                        style="width: 100px; height: auto;"></i></a>
+                                <ul class="dropdown-menu " style=" position:absolute; top: 10; left:1;">
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">User Profile</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">setting</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">Team</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">Contact</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="" class="btn text-primary">Logout</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+        </nav>
+
+    </section>
+    <div class="container-lg text-primary">
+        <marquee behavior="alternate" direction="left">HELLO DEAR WELCOME TO <span class="text-success">HOLY-SHIPPING
+                COMPANY</span></marquee>
+
+    </div>
+    <!-- the beginner of my login form -->
+    <section class="container-lg py-2 d-sm-block" id="my_loginForm" style=" margin: auto; width: 900px; height: 90vh">
+        <!-- this is my login form -->
+        <div class="myform d-sm-flex justify-content-center align-items-center m-3 ">
+
+            <!-- this is my login form -->
+            <div style="width: 400px;" class="bg-muted border p-3 rounded shadow " id="register" style="display: none;">
+
+                <div class="d-flex justify-content0etween align-items-center">
+
+
+
+                    <form action="/login" method="post">
+                        <h2 class="text-center text-primary">Please Enter your login detail</h2>
+                        <hr>
+                        <div class="mb-3">
+                            <label for="users" class="form-label">User Name:</label>
+                            <input type="text" name="user" class="form-control" id="users" aria-describedby="emailHelp"
+                                placeholder="@clever22">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password:</label>
+                            <input type="password" name="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary self-align-center ms-2 mb-3"
+                            style="width: 350px;">Submit</button>
+                        <p class="text-muted">if you dont have account click <a href="#reg" id="log-1">sign-up</a> to
+                            register
+                        </p>
+                        <a href="#reg" class="btn btn-success ms-2" type="button" style="width: 350px;"
+                            id="log-2">Register</a>
+                    </form>
+
+                </div>
+
+            </div>            
+        </div>
+
+      
+    </section>
+    
+    
+
+    <section class="container-lg">
+        <footer class="text-center py-2">
+            <hr>
+            <p class="text-muted">Copyright &copy; 2023</p>
+        </footer>
+    </section>
+
+</body>
+<script>
+    const register = document.getElementById("register");
+    const reg = document.getElementById("reg");
+    const log = document.getElementById("log");
+    const log1 = document.getElementById("log-1");
+    const log2 = document.getElementById("log-2");
+
+
+    function logEvent(event) {//this is a function
+        event.preventDefault();
+        register.style.display = "block";
+        reg.style.display = "none";
+
+    }
+    function logEvent1(event) {//this is a function
+        event.preventDefault();
+        reg.style.display = "block";
+        register.style.display = "none";
+
+    }
+    function logEvent2(event) {//this is a function
+        event.preventDefault();
+        reg.style.display = "block";
+        register.style.display = "none";
+
+    }
+
+    log.addEventListener("click", logEvent)//this is a event listener register form 
+    log1.addEventListener("click", logEvent1)//this is a event listener register form 
+    log2.addEventListener("click", logEvent2)//this is a event listener register form 
+
+
+
+
+    //this is my about javascript designed
+    /*const about = document.querySelector(".about");
+     const about2 = document.querySelector("#about");
+     about.addEventListener("click", () => {
+         about2.style.display = "block";
+         reg.style.display = "none";
+         register.style.display = "none";
+         my_loginForm.style.display = "none";
+         console.log(about);
+     }); */
+</script>
+<script src="/public/main.js"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

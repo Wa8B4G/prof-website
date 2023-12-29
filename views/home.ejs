@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://app.myshiping.ng</title>
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- THIS IS THE BEGINNER OF THE CODE -->
+    <section class="container-fluid" style="position: sticky; top: 0; z-index: 2 ">
+        <nav class="navbar navbar-expand-lg bg-success p-1 rounded">
+            <div class="container-fluid">
+                <!-- this is the horizontal navigation bar and it was design using boostrap design -->
+                <a href="#" class="navbar-brand text-white bold ">PROF. CLEVER</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- this is a navigation bar -->
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center"
+                    id="navbarNavAltMarkup">
+
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active fs-5" id="home" aria-current="page" href="#">Home</a>
+                            </li>
+                            <a class="nav-link text-white fs-5 about" id="about" href="#about">About</a>
+                            <li class="nav-item"></li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5" href="#">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white fs-5" data-bs-toggle="dropdown"
+                                    aria-expanded="false" href="#">
+                                    Reviewed
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="#link1">chapter-one</a></li>
+                                    <li><a class="dropdown-item" href="#link2">chapter-two</a></li>
+                                    <li><a class="dropdown-item" href="#link3">chapter-three</a></li>
+                                    <li><a class="dropdown-item" href="#link4">chapter-four</a></li>
+                                    <li><a class="dropdown-item" href="#link5">chaper-five</a></li>
+                                    <li><a class="dropdown-item" href="#link6">chapter-six</a></li>
+                                    <li><a class="dropdown-item" href="#link7">chapter-seven</a></li>
+                                    <li><a class="dropdown-item" href="#link8">chapter-Eight</a></li>
+                                    <li><a class="dropdown-item" href="#link9">chapter-Nine</a></li>
+                                    <li><a class="dropdown-item" href="#link10">chaper-Ten</a></li>
+                                    <li><a class="dropdown-item" href="#link11">chapter-Eleven</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link text-white fs-5" href="#">Contact</a></li>
+
+                            <!-- this is my sign in dropdown menue -->
+                            <li class="nav-item dropdown pe-5">
+                                <a href="#register"
+                                    class="nav-link bg-lg-primary text-white fs-5  text-sm-start dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                        class="bi bi-person-circle text-dark" style="width: 100px; height: auto;">
+
+
+                                    </i></a>
+                                <ul class="dropdown-menu position-absolute top-10 end-1 ">
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">User Profile</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">setting</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">Team</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#" class="dropdown-item">Contact</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <form action="/logout" method="post">
+
+                                            <button type="submit" class="dropdown-item">Logout</button>
+                                        </form>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="na-item">
+                                <!-- this is my notrification button -->
+                                <a href="#" class="nav-link fs-5 text-white"><i class="bi bi-bell">
+                                        <span
+                                            class="position-absolute top-5 start-10 translate-middle badge bg-danger border border-light rounded-circle">
+                                            1
+                                            <span class="visually-hidden">unreade message</span>
+                                        </span>
+                                    </i>
+                                </a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+        </nav>
+
+    </section>
+
+
+    <!--    THIS IS THE MAIN CONTENT OF THE PAGE ///////////////////////////////////////////////////// -->
+    <!-- <section class="container-fluid py-5">
+       
+        <div class="d-lg-flex justify-content-center align-items-center">
+
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner d-flex justify-content-between align-items-center">
+                    <div class="carousel-item active mx-3">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white bold fs-5">hello world </div>
+                            <div class="card-body">
+                                <div class="card-test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                                    at, inventore eum velit reprehenderit cum aperiam cupiditate blanditiis asperiores
+                                    totam repellat dicta quae, quis nulla tenetur explicabo officia. Nisi soluta, ipsum
+                                    placeat quos eligendi, non magni itaque in veritatis voluptates explicabo? Dicta hic
+                                    consequatur ab, accusantium vero eaque? Quis? </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mx-3">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="card">
+                            <div class="card-header bg-success text-white bold fs-5">hello world </div>
+                            <div class="card-body">
+                                <div class="card-test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                                    at, inventore eum velit reprehenderit cum aperiam cupiditate blanditiis asperiores
+                                    totam repellat dicta quae, quis nulla tenetur explicabo officia. Nisi soluta, ipsum
+                                    placeat quos eligendi, non magni itaque in veritatis voluptates explicabo? Dicta hic
+                                    consequatur ab, accusantium vero eaque? Quis? </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mx-3">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="card">
+                            <div class="card-header bg-warning text-white bold fs-5">hello world </div>
+                            <div class="card-body">
+                                <div class="card-test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                                    at, inventore eum velit reprehenderit cum aperiam cupiditate blanditiis asperiores
+                                    totam repellat dicta quae, quis nulla tenetur explicabo officia. Nisi soluta, ipsum
+                                    placeat quos eligendi, non magni itaque in veritatis voluptates explicabo? Dicta hic
+                                    consequatur ab, accusantium vero eaque? Quis? </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- this is my main section  -->
+    <hr >
+    <section class="container-fluid" style="padding-top: 30px;" id="wrap" >
+        <main class="row">
+            <article class="col-lg-2 border-end border-5 border-info position-relative me-3" >
+              <!-- this is my book navigation bar -->
+                <nav id="mainNav" class="navbar align-items-center position-fixed  " >
+                    <hr >
+                    <ul class="nav nav-pills flex-lg-column">
+                        <li class="nav-item">
+                            <a href="#link1 border-bottom" class="nav-link text-capitalize link-active">chapter one</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link2" class="nav-link text-capitalize">chapter Two</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link3" class="nav-link text-capitalize">chapter Three</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link4" class="nav-link text-capitalize">chapter Four</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link5" class="nav-link text-capitalize">chapter five</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#link6" class="nav-link text-capitalize">chapter six</a>
+                        <li class="nav-item border-bottom">
+                            <a href="#link7" class="nav-link text-capitalize">chapter seven</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link8" class="nav-link text-capitalize">chapter eight</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link9" class="nav-link text-capitalize">chapter nine</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link10" class="nav-link text-capitalize">chapter ten</a>
+                        </li>
+                        <li class="nav-item border-bottom">
+                            <a href="#link11" class="nav-link text-capitalize">chapter eleven</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </article>
+
+            <!-- this is my book content  -->
+            <article class="col-8 scrollspy" data-bs-target="mainNav" data-bs-spy="scroll" data-bs-smooth-scroll="true"
+             data-bs-root-margin="0px 0px -40%" tabindex="0" style="text-align: justify;">
+
+                <div class="card pe-4 mb-4" id="link1">
+                    <h2 id="link1" class="card-header bg-info text-center">chpter one</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To HTML</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link2">
+                    <h2 id="link2" class="card-header bg-secondary text-center">chpter Two</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To CSS</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link3">
+                    <h2 id="link3" class="card-header bg-primary text-center">chpter Three</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To JavaScript</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link4">
+                    <h2 id="link4" class="card-header bg-success text-center">chpter Four</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To python</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+                <div class="card pe-4 mb-4" id="link5">
+                    <h2 id="link5" class="card-header bg-warning text-center">chpter five</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To C#</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link6">
+                    <h2 id="link6" class="card-header bg-info text-center">chpter six</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To C</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link7">
+                    <h2 id="link7" class="card-header text-center bg-primary">chpter seven</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To C++</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link8">
+                    <h2 id="link8" class="card-header text-center bg-secondary">chpter Eight</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To Expres.js</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link9">
+                    <h2 id="link9" class="card-header bg-warning text-center">chpter Nine</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To Node.js</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link10">
+                    <h2 id="link10" class="card-header alert alert-danger text-center ">chpter Ten</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To PHP</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card pe-4 mb-4" id="link11">
+                    <h2 id="link11" class="card-header bg-info text-center">chpter Eleven</h2>
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction To mySQL</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                            provident
+                            necessitatibus nisi animi unde optio praesentium quibusdam omnis fugit quasi vel distinctio
+                            odit
+                            quas nemo cumque nesciunt fugiat, debitis magni officia. Eos provident quidem numquam!
+                            Magnam
+                            laborum necessitatibus eaque expedita aspernatur facilis praesentium, voluptatibus dolorem.
+                            Eos
+                            corporis id eveniet.</p>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt earum a maiores fugit
+                            fuga corrupti dignissimos porro. Quidem deserunt laudantium ullam sint dolor exercitationem
+                            sed cum at voluptates delectus, et velit, assumenda ab iste iusto nobis quam eaque officia
+                            autem. Sequi perspiciatis, eos accusamus, officia saepe inventore explicabo quaerat, eaque
+                            distinctio magnam reprehenderit? Accusantium fuga vel nesciunt, placeat itaque accusamus
+                            repellendus inventore praesentium iure, vitae quas nam nobis maxime voluptas magni sed!
+                            Dolor ducimus, vero fuga quasi saepe obcaecati doloribus autem repudiandae optio pariatur
+                            nulla fugit? Dolorum eaque deleniti labore illo distinctio dolores libero cupiditate,
+                            repellendus aliquam enim quos consectetur?
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="col-2">
+                <div class="border-start border-5 pt-5">
+                    <!-- <h2>jdfjsdffdj</h2> -->
+                </div>
+            </aside>
+        </main>
+    </section>
+
+    <section id="about_wrap d-none">
+        helo
+    </section>
+    <!-- <section class="container-fluid">
+        <div class="spinner-border text-success text-align-center" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+    </section> -->
+    <!-- this is my footer content -->
+    <section class="container-lg">
+        <footer class="text-center py-2 ">
+            <hr>
+            <p class="text-muted">Copyright &copy; 2023</p>
+        </footer>
+    </section>
+
+</body>
+<script>
+    const register = document.getElementById("register");
+    const reg = document.getElementById("reg");
+    const log = document.getElementById("log");
+    const log1 = document.getElementById("log-1");
+    const log2 = document.getElementById("log-2");
+
+
+    function logEvent(event) {//this is a function
+        event.preventDefault();
+        register.style.display = "block";
+        reg.style.display = "none";
+
+    }
+    function logEvent1(event) {//this is a function
+        event.preventDefault();
+        reg.style.display = "block";
+        register.style.display = "none";
+
+    }
+    function logEvent2(event) {//this is a function
+        event.preventDefault();
+        reg.style.display = "block";
+        register.style.display = "none";
+
+    }
+
+    log.addEventListener("click", logEvent)//this is a event listener register form 
+    log1.addEventListener("click", logEvent1)//this is a event listener register form 
+    log2.addEventListener("click", logEvent2)//this is a event listener register form 
+
+
+
+    //this is the styling of my wrapper element
+    const wrapper = document.getElementById("wrap")
+    const home = document.getElementById("home");
+    const about = document.getElementById("about")
+    const about_wrap = document.getElementById("about_wrap");
+
+    about.addEventListener("click", () => {
+        about_wrap.style.display = "block";
+        wrapper.style.display = "none";
+    })
+   home.addEventListener("click", () => {
+        wrapper.style.display = "block";
+        about_wrap.style.display = "none";
+    })
+
+
+    
+</script>
+<script src="/public/main.js"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
